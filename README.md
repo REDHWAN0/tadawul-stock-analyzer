@@ -241,13 +241,12 @@ Found a bug? Please open an issue on GitHub with:
 **REDHWAN MOHAMMED** - Financial Engineering
 - 📧 Email: malekdxn9@gmail.com  
 - 💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)  
-- 🐙 GitHub: [@YourUsername](https://github.com/YourUsername)  
-- 📄 Portfolio: [Your Portfolio Website](https://yourportfolio.com)  
+- 🐙 GitHub: [@REDHWAN MOHAMMED]([https://github.com/YourUsername](https://github.com/REDHWAN0))  
 
 **Education**:  
 - Master's in Financial Engineering  
-- Bachelor's in [Your Field]  
-- Certifications: CFA Level I Candidate, Python for Finance  
+- Master's in Business Administration 
+- Certifications: Data Science, Data Analytics, Machine Learining, Deep Learning, Sql, and Python  
 
 **Skills**:  
 - Quantitative Analysis & Financial Modeling  
@@ -306,8 +305,8 @@ Special thanks to:
 - Academic research in financial engineering and risk management
 
 ### Educational Resources
-- Coursera & edX courses in financial engineering
-- CFA Institute materials
+- WorldQuant University. Financial Engineering Master: Courses Materials. 
+- Coursera courses in Data Science, Data Analytics, and financial engineering
 - Financial mathematics textbooks and papers
 
 ---
@@ -332,7 +331,7 @@ Special thanks to:
 
 <div align="center">
   
-### ⭐ إذا أعجبك المشروع، لا تنسى إعطائه نجمة على GitHub!
+### ⭐ If you liked the project, don't forget to give it a star on GitHub!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=YourUsername/tadawul-stock-analyzer&type=Date)](https://star-history.com/#YourUsername/tadawul-stock-analyzer&Date)
 
