@@ -1,5 +1,5 @@
 """
-Tadawul Stock Analysis Tool - Fixed for MultiIndex columns
+Tadawul Stock Analysis Tool 
 """
 
 import yfinance as yf
