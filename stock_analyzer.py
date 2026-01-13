@@ -22,7 +22,7 @@ sns.set_palette("husl")
 # ====================== CORE FUNCTIONS ======================
 
 def load_stock_data(ticker, period='1y', start_date=None, end_date=None):
-    """Load stock data from Yahoo Finance - FIXED VERSION"""
+    """Load stock data from Yahoo Finance 
     try:
         if start_date and end_date:
             stock = yf.download(ticker, start=start_date, end=end_date)
@@ -55,7 +55,7 @@ def load_stock_data(ticker, period='1y', start_date=None, end_date=None):
 
 
 def normalize_column_names(df):
-    """Normalize column names for Saudi stocks - FIXED VERSION"""
+    """Normalize column names for Saudi stocks"""
     data = df.copy()
 
     print(f"   Input columns: {data.columns.tolist()}")
@@ -99,7 +99,7 @@ def normalize_column_names(df):
 
 
 def calculate_technical_indicators(df):
-    """Calculate technical indicators - FIXED VERSION"""
+    """Calculate technical indicators"""
     # First normalize column names
     data = normalize_column_names(df)
 
@@ -158,7 +158,7 @@ def calculate_technical_indicators(df):
 
 
 def calculate_performance_metrics(data, ticker_name):
-    """Calculate performance metrics - FIXED VERSION"""
+    """Calculate performance metrics"""
     if data is None or len(data) < 10:
         print("⚠️ Insufficient data for analysis")
         return None
@@ -230,7 +230,7 @@ def calculate_performance_metrics(data, ticker_name):
 
 
 def plot_stock_price_with_ma(data, ticker_name):
-    """Plot stock price with moving averages - FIXED VERSION"""
+    """Plot stock price with moving averages"""
     if 'Adj_Close' not in data.columns:
         print(f"❌ Cannot plot: 'Adj_Close' not found for {ticker_name}")
         return
@@ -284,7 +284,7 @@ def plot_stock_price_with_ma(data, ticker_name):
 
 
 def comprehensive_stock_analysis(ticker_symbol, ticker_name, period='1y'):
-    """Perform comprehensive stock analysis - FIXED VERSION"""
+    """Perform comprehensive stock analysis"""
     print(f"\n{'=' * 60}")
     print(f"🔍 Analyzing: {ticker_name} ({ticker_symbol})")
     print(f"{'=' * 60}")
@@ -322,8 +322,7 @@ def comprehensive_stock_analysis(ticker_symbol, ticker_name, period='1y'):
 # ====================== SIMPLE TEST FUNCTION ======================
 
 def simple_test():
-    """Simple test to verify the fix"""
-    print("🧪 Simple Test - Verifying Fix")
+    print("🧪 Simple Test")
     print("=" * 50)
 
     # Test with Aramco
